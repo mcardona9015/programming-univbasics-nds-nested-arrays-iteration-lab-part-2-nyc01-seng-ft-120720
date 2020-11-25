@@ -7,7 +7,7 @@ def find_min_in_nested_arrays(src)
     for val in array
       if val < min_val
         min_val = val
-        min_val_array << min_val
+    min_val_array << min_val
       end
     end
   end
