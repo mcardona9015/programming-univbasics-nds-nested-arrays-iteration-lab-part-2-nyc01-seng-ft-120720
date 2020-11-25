@@ -9,6 +9,8 @@ def find_min_in_nested_arrays(src)
         min_val = val
       min_val_array << min_val
       end
+    end
+  end
   min_val_array
 
 end
